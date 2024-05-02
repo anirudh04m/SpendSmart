@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1ABB632BB8E860003806EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ABB622BB8E860003806EB /* Constants.swift */; };
+		EF1ABB662BB8F0F9003806EB /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ABB642BB8F0F9003806EB /* Transaction+CoreDataClass.swift */; };
+		EF1ABB672BB8F0F9003806EB /* Transaction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ABB652BB8F0F9003806EB /* Transaction+CoreDataProperties.swift */; };
+		EF1ABB692BB8FAFD003806EB /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ABB682BB8FAFD003806EB /* TransactionTableViewCell.swift */; };
+		EF1EAF622BBE4FFF0048D865 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1EAF612BBE4FFF0048D865 /* Utils.swift */; };
 		EF4BFA7D2BB4AB24003B00BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BFA7C2BB4AB24003B00BD /* AppDelegate.swift */; };
 		EF4BFA7F2BB4AB24003B00BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BFA7E2BB4AB24003B00BD /* SceneDelegate.swift */; };
 		EF4BFA812BB4AB24003B00BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4BFA802BB4AB24003B00BD /* ViewController.swift */; };
@@ -14,9 +19,45 @@
 		EF4BFA872BB4AB24003B00BD /* SpendSmart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF4BFA852BB4AB24003B00BD /* SpendSmart.xcdatamodeld */; };
 		EF4BFA892BB4AB25003B00BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4BFA882BB4AB25003B00BD /* Assets.xcassets */; };
 		EF4BFA8C2BB4AB25003B00BD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF4BFA8B2BB4AB25003B00BD /* Base */; };
+		EF4BFA952BB4AC49003B00BD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = EF4BFA942BB4AC49003B00BD /* Lottie */; };
+		EF5CC48D2BB897E30089EC94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CC48C2BB897E30089EC94 /* HomeViewController.swift */; };
+		EF5CC4972BB89B610089EC94 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CC4962BB89B610089EC94 /* TransactionType.swift */; };
+		EF5CC4992BB8A4D10089EC94 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CC4982BB8A4D10089EC94 /* AddTransactionViewController.swift */; };
+		EF5D423D2BC89715008C245F /* Edit.json in Resources */ = {isa = PBXBuildFile; fileRef = EF5D423C2BC89715008C245F /* Edit.json */; };
+		EF5D423F2BC8B015008C245F /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D423E2BC8B014008C245F /* BudgetViewController.swift */; };
+		EF5D42462BC8B102008C245F /* Budget+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D42442BC8B102008C245F /* Budget+CoreDataClass.swift */; };
+		EF5D42472BC8B102008C245F /* Budget+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D42452BC8B102008C245F /* Budget+CoreDataProperties.swift */; };
+		EF5D42492BC8BD21008C245F /* Savings.json in Resources */ = {isa = PBXBuildFile; fileRef = EF5D42482BC8BD21008C245F /* Savings.json */; };
+		EF5D424B2BC8C0E0008C245F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D424A2BC8C0E0008C245F /* ChatViewController.swift */; };
+		EF643F492BBDF82700EF4DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4BFA822BB4AB24003B00BD /* Main.storyboard */; };
+		EF7E12212BBDE19000181681 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E12202BBDE19000181681 /* ExpenseTableViewCell.swift */; };
+		EF7E12232BBDF1CD00181681 /* IncomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E12222BBDF1CD00181681 /* IncomeTableViewCell.swift */; };
+		EF7E12252BBDF1E900181681 /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E12242BBDF1E900181681 /* IncomeViewController.swift */; };
+		EF93A10C2BBD0C7700E4ACC4 /* Budget.json in Resources */ = {isa = PBXBuildFile; fileRef = EF93A10B2BBD0C7700E4ACC4 /* Budget.json */; };
+		EF93A10E2BBD132F00E4ACC4 /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF93A10D2BBD132F00E4ACC4 /* ExpenseViewController.swift */; };
+		EFBFA0682BD87A3200BCC363 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = EFBFA0672BD87A3200BCC363 /* DGCharts */; };
+		EFDC7F6C2BC71ECD000C8D79 /* UpdateTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC7F6B2BC71ECD000C8D79 /* UpdateTransactionViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EF93A48C2BC9B790001CA3DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EF1ABB622BB8E860003806EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF1ABB642BB8F0F9003806EB /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF1ABB652BB8F0F9003806EB /* Transaction+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EF1ABB682BB8FAFD003806EB /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		EF1EAF612BBE4FFF0048D865 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		EF4BFA792BB4AB24003B00BD /* SpendSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4BFA7C2BB4AB24003B00BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF4BFA7E2BB4AB24003B00BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +67,21 @@
 		EF4BFA882BB4AB25003B00BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4BFA8B2BB4AB25003B00BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4BFA8D2BB4AB25003B00BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5CC48C2BB897E30089EC94 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EF5CC4962BB89B610089EC94 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		EF5CC4982BB8A4D10089EC94 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		EF5D423C2BC89715008C245F /* Edit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Edit.json; sourceTree = "<group>"; };
+		EF5D423E2BC8B014008C245F /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		EF5D42442BC8B102008C245F /* Budget+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EF5D42452BC8B102008C245F /* Budget+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EF5D42482BC8BD21008C245F /* Savings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Savings.json; sourceTree = "<group>"; };
+		EF5D424A2BC8C0E0008C245F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		EF7E12202BBDE19000181681 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		EF7E12222BBDF1CD00181681 /* IncomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeTableViewCell.swift; sourceTree = "<group>"; };
+		EF7E12242BBDF1E900181681 /* IncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		EF93A10B2BBD0C7700E4ACC4 /* Budget.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Budget.json; sourceTree = "<group>"; };
+		EF93A10D2BBD132F00E4ACC4 /* ExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		EFDC7F6B2BC71ECD000C8D79 /* UpdateTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTransactionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBFA0682BD87A3200BCC363 /* DGCharts in Frameworks */,
+				EF4BFA952BB4AC49003B00BD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +100,10 @@
 		EF4BFA702BB4AB24003B00BD = {
 			isa = PBXGroup;
 			children = (
+				EF5D42442BC8B102008C245F /* Budget+CoreDataClass.swift */,
+				EF5D42452BC8B102008C245F /* Budget+CoreDataProperties.swift */,
+				EF1ABB642BB8F0F9003806EB /* Transaction+CoreDataClass.swift */,
+				EF1ABB652BB8F0F9003806EB /* Transaction+CoreDataProperties.swift */,
 				EF4BFA7B2BB4AB24003B00BD /* SpendSmart */,
 				EF4BFA7A2BB4AB24003B00BD /* Products */,
 			);
@@ -58,14 +120,30 @@
 		EF4BFA7B2BB4AB24003B00BD /* SpendSmart */ = {
 			isa = PBXGroup;
 			children = (
+				EF5D42482BC8BD21008C245F /* Savings.json */,
+				EF93A10B2BBD0C7700E4ACC4 /* Budget.json */,
 				EF4BFA7C2BB4AB24003B00BD /* AppDelegate.swift */,
 				EF4BFA7E2BB4AB24003B00BD /* SceneDelegate.swift */,
 				EF4BFA802BB4AB24003B00BD /* ViewController.swift */,
 				EF4BFA822BB4AB24003B00BD /* Main.storyboard */,
+				EF5D424A2BC8C0E0008C245F /* ChatViewController.swift */,
 				EF4BFA882BB4AB25003B00BD /* Assets.xcassets */,
 				EF4BFA8A2BB4AB25003B00BD /* LaunchScreen.storyboard */,
 				EF4BFA8D2BB4AB25003B00BD /* Info.plist */,
 				EF4BFA852BB4AB24003B00BD /* SpendSmart.xcdatamodeld */,
+				EF5CC48C2BB897E30089EC94 /* HomeViewController.swift */,
+				EF5CC4962BB89B610089EC94 /* TransactionType.swift */,
+				EF5CC4982BB8A4D10089EC94 /* AddTransactionViewController.swift */,
+				EF1ABB622BB8E860003806EB /* Constants.swift */,
+				EF1ABB682BB8FAFD003806EB /* TransactionTableViewCell.swift */,
+				EF93A10D2BBD132F00E4ACC4 /* ExpenseViewController.swift */,
+				EF7E12202BBDE19000181681 /* ExpenseTableViewCell.swift */,
+				EF7E12222BBDF1CD00181681 /* IncomeTableViewCell.swift */,
+				EF7E12242BBDF1E900181681 /* IncomeViewController.swift */,
+				EF1EAF612BBE4FFF0048D865 /* Utils.swift */,
+				EFDC7F6B2BC71ECD000C8D79 /* UpdateTransactionViewController.swift */,
+				EF5D423C2BC89715008C245F /* Edit.json */,
+				EF5D423E2BC8B014008C245F /* BudgetViewController.swift */,
 			);
 			path = SpendSmart;
 			sourceTree = "<group>";
@@ -80,12 +158,17 @@
 				EF4BFA752BB4AB24003B00BD /* Sources */,
 				EF4BFA762BB4AB24003B00BD /* Frameworks */,
 				EF4BFA772BB4AB24003B00BD /* Resources */,
+				EF93A48C2BC9B790001CA3DD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SpendSmart;
+			packageProductDependencies = (
+				EF4BFA942BB4AC49003B00BD /* Lottie */,
+				EFBFA0672BD87A3200BCC363 /* DGCharts */,
+			);
 			productName = SpendSmart;
 			productReference = EF4BFA792BB4AB24003B00BD /* SpendSmart.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +197,10 @@
 				Base,
 			);
 			mainGroup = EF4BFA702BB4AB24003B00BD;
+			packageReferences = (
+				EF4BFA932BB4AC49003B00BD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				EFBFA0662BD87A3200BCC363 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = EF4BFA7A2BB4AB24003B00BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4BFA892BB4AB25003B00BD /* Assets.xcassets in Resources */,
+				EF5D42492BC8BD21008C245F /* Savings.json in Resources */,
+				EF643F492BBDF82700EF4DB0 /* Main.storyboard in Resources */,
 				EF4BFA8C2BB4AB25003B00BD /* Base in Resources */,
+				EF5D423D2BC89715008C245F /* Edit.json in Resources */,
+				EF93A10C2BBD0C7700E4ACC4 /* Budget.json in Resources */,
 				EF4BFA842BB4AB24003B00BD /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +232,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5CC4972BB89B610089EC94 /* TransactionType.swift in Sources */,
+				EF1ABB692BB8FAFD003806EB /* TransactionTableViewCell.swift in Sources */,
+				EF5CC48D2BB897E30089EC94 /* HomeViewController.swift in Sources */,
 				EF4BFA872BB4AB24003B00BD /* SpendSmart.xcdatamodeld in Sources */,
+				EF1ABB632BB8E860003806EB /* Constants.swift in Sources */,
+				EF93A10E2BBD132F00E4ACC4 /* ExpenseViewController.swift in Sources */,
+				EF7E12252BBDF1E900181681 /* IncomeViewController.swift in Sources */,
+				EF1EAF622BBE4FFF0048D865 /* Utils.swift in Sources */,
+				EF7E12212BBDE19000181681 /* ExpenseTableViewCell.swift in Sources */,
 				EF4BFA812BB4AB24003B00BD /* ViewController.swift in Sources */,
+				EF5D424B2BC8C0E0008C245F /* ChatViewController.swift in Sources */,
+				EF7E12232BBDF1CD00181681 /* IncomeTableViewCell.swift in Sources */,
+				EF5CC4992BB8A4D10089EC94 /* AddTransactionViewController.swift in Sources */,
+				EF1ABB662BB8F0F9003806EB /* Transaction+CoreDataClass.swift in Sources */,
+				EF5D42462BC8B102008C245F /* Budget+CoreDataClass.swift in Sources */,
+				EF5D42472BC8B102008C245F /* Budget+CoreDataProperties.swift in Sources */,
+				EF5D423F2BC8B015008C245F /* BudgetViewController.swift in Sources */,
+				EF1ABB672BB8F0F9003806EB /* Transaction+CoreDataProperties.swift in Sources */,
+				EFDC7F6C2BC71ECD000C8D79 /* UpdateTransactionViewController.swift in Sources */,
 				EF4BFA7D2BB4AB24003B00BD /* AppDelegate.swift in Sources */,
 				EF4BFA7F2BB4AB24003B00BD /* SceneDelegate.swift in Sources */,
 			);
@@ -299,11 +407,12 @@
 				DEVELOPMENT_TEAM = 392YKKF8HP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpendSmart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spend Smart";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,11 +436,12 @@
 				DEVELOPMENT_TEAM = 392YKKF8HP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpendSmart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spend Smart";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +477,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF4BFA932BB4AC49003B00BD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+		EFBFA0662BD87A3200BCC363 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF4BFA942BB4AC49003B00BD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF4BFA932BB4AC49003B00BD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		EFBFA0672BD87A3200BCC363 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFBFA0662BD87A3200BCC363 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		EF4BFA852BB4AB24003B00BD /* SpendSmart.xcdatamodeld */ = {
